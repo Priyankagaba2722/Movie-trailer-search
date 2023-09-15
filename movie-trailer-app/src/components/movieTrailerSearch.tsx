@@ -5,7 +5,7 @@ const MovieTrailerSearch = () => {
     const [movieTitle, setMovieTitle] = useState('');
     const [trailerId, setTrailerId] = useState('');
 
-    const apiKey = 'AIzaSyBozWwZxhlmW2FnYUbNYjb6aqibHwdenr0'; // Replace with your YouTube Data API key
+    const apiKey = 'YOUR_API_KEY'; // Replace with your YouTube Data API key
 
     const handleSearch = async () => {
         try {
